@@ -29,34 +29,34 @@ app.get("/getapi", (req, res) => {
 // First API testing End
 
 // Login API
-// app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(bodyParser.json());
-// app.post("/login", function (req, res) {
-//   // Cookies that have not been signed
-//   console.log("Cookies: ", req.cookies);
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.post("/login", function (req, res) {
+  // Cookies that have not been signed
+  console.log("Cookies: ", req.cookies);
 
-//   var data = req.body;
+  var data = req.body;
 
-//   var config = {
-//     method: "post",
-//     // url: "https://parind.online/api/customer/login",
-//     url: "https://parind.online/parind4/public/api/customer/login",
-//     data: data,
-//   };
+  var config = {
+    method: "post",
+    // url: "https://parind.online/api/customer/login",
+    url: "https://parind.online/parind4/public/api/customer/login",
+    data: data,
+  };
 
-//   axios(config)
-//     .then(function (response) {
+  axios(config)
+    .then(function (response) {
       
-//       app.use(cookieParser());
-//       headers = response.headers.get("Set-Cookie");
-//       res.cookie("Login-Cookie", 1);
+      app.use(cookieParser());
+      headers = response.headers.get("Set-Cookie");
+      res.cookie("Login-Cookie", 1);
 
-//       res.send(response.data);
-//     })
-//     .catch(function (error) {
-//       res.send(error);
-//     });
-// });
+      res.send(response.data);
+    })
+    .catch(function (error) {
+      res.send(error);
+    });
+});
 // Login API End
 
 // Register API
@@ -107,11 +107,11 @@ app.post("/logout", function (req, res) {
       res.send(response.data);
     })
     .catch(function (error) {
-      res.send(error);
+      res.send(error)
     });
 });
 // Logout API END
 
-app.listen(5000, () => {
-  console.log("Server start at port number 5000");
+app.listen(4000, () => {
+  console.log("Server start at port number 4000");
 });
