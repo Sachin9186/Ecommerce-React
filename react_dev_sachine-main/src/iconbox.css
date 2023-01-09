@@ -1,0 +1,46 @@
+.iconbox {
+    width: 70%;
+    box-shadow: 0 11px 12px 0 rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 25px 40px 25px 40px;
+    height: 228px;
+    max-height: 228px;
+}
+
+.featuresection {
+    padding-top: 26px;
+    padding-bottom: 40px;
+    background: #f2f2f2c7;
+}
+
+.iconbox h3 {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Raleway';
+    color: black;
+}
+
+img.svgimg {
+    width: 92px !important;
+    height: 153px;
+    margin-right: 14px;
+}
+
+.col-md {
+    margin: auto;
+    width: 50%;
+}
+
+.container.boxx {
+    display: flex;
+    align-items: center;
+    text-align: -webkit-right;
+    margin-top: -30px;
+    margin-right: 100px;
+    margin-bottom: auto;
+    margin-left: 35px;
+}
+
+.row.features {
+    margin-top: 50px;
+}

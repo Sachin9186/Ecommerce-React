@@ -1,0 +1,56 @@
+h4.cate_heading {
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 31px;
+}
+p.cate_para {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 19px;
+}
+
+.container.text-center.blogs {
+    margin-top: 34px !important;
+}
+
+p.datetim {
+    color: #b67429;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    font-size: 17px;
+    
+}
+
+p.blogdiscrip {
+    color: black;
+    padding-left: 0px;
+    font-family: 'Raleway';
+    font-size: 17px;
+}
+
+.blog_section {
+    padding-top: 0px;
+    padding-bottom: 35px;
+    margin-top: 9px;
+}
+
+.blog_section img {
+    height: 218px;
+}
+
+.col-sm img {
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cate_section .row {
+    margin-top: 23px;
+}
+
+h4.cate_nme {
+    font-family: "kaushan-regular";
+    font-size: 30px;
+    margin-top: 10px;
+}

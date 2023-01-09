@@ -1,0 +1,45 @@
+a.navbar-brand {
+    font-family: auto;
+    font-weight: bold;
+    color: red;
+    font-size: 31px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+    font-family: auto;
+    font-size: 19px;
+    color: #B67429;
+    font-weight: 700;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 7px;
+}
+
+/* a.navbar-brand:hover {
+    color: red;
+} */
+
+div#navbarSupportedContent ul {
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+}
+
+span.carousel-control-next-icon, span.carousel-control-prev-icon {
+    
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a:hover {
+    color: #42413F;
+}
+
+img.logo {
+    width: 100px;
+}
+
+nav.navbar.navbar-expand-lg.bg-light {
+    height: 81px;
+}

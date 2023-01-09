@@ -1,0 +1,176 @@
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 40%;
+    padding-right: 42px;
+    padding-top: 75px;
+  }
+  
+  /* Middle column */
+  .column.middle1 {
+    width: 60%;
+    margin-top: 20px;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .Yorder {
+    background: #fff;
+    box-shadow: -1px 6px 20px 2px #cfd5df;
+    padding: 30px 30px;
+}
+
+form.checkoutform label {
+  margin: 10px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  color: black;
+}
+
+.Yorder{
+    margin-top: 15px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #dadada;
+  }
+  table{
+    margin: 0;
+    padding: 0;
+  }
+  th{
+    border-bottom: 1px solid #dadada;
+    padding: 10px 0;
+    text-align: center;
+  }
+  tr>td:nth-child(1){
+    text-align: left;
+    color: #2d2d2a;
+  }
+  tr>td:nth-child(2) {
+    text-align: right;
+    color: #B67429;
+}
+  td{
+    border-bottom: 1px solid #dadada;
+    padding: 25px 25px 25px 0;
+  }
+  
+  p{
+    display: block;
+    color: #888;
+    margin: 0;
+    padding-left: 25px;
+  }
+  .Yorder>div{
+    padding: 15px 0; 
+  }
+
+  .required{
+    color: red;
+  }
+  label, table{
+    display: block;
+    margin: 15px;
+  }
+  label>span{
+    float: left;
+    width: 16%;
+    margin-top: 12px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .checkoutform input[type="text"],.checkoutform input[type="tel"], .checkoutform input[type="email"], .checkoutform select
+  {
+    width: 70%;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+   
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+
+  h4.checkheading.orderr {
+    margin-top: -40px;
+}
+
+  h4.checkheading {
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding-left: 15px;
+    padding-bottom: 18px;
+    color: black;
+}
+
+  select{
+    width: 72%;
+    height: 35px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+
+  h3.checkouttitle {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 31px;
+    margin-left: 41px;
+    margin-top: 14px;
+}
+
+h4.checkheading.order {
+  margin-bottom: -9px;
+  margin-left: 149px;
+  margin-top: -33px;
+}
+
+
+
+form.checkoutform {
+  padding-left: 25px;
+  padding-bottom: 23px;
+}
+
+p.havecoupen {
+  padding-left: 22px;
+  margin-top: 19px;
+  background: #b67429;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+ 
+}
+
+.div3 {
+  display: flex;
+  margin-top: 20px;
+}
+
+label.ship {
+  color: black;
+  font-size: 28px !important;
+}
+
+.column.middle1 form {
+    padding-top: 10px;
+}
+
+
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }

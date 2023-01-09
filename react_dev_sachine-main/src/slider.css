@@ -1,0 +1,41 @@
+
+.container.hp_slider {
+    margin-top: 25px;
+}
+
+.carousel-item img {
+    height: 437px;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.carousel-caption.d-none.d-md-block p {
+    margin-top: 17px;
+    color: white;
+}
+
+
+
+button.menu_btn.btn.btn-danger.sliderbtn {
+    margin-top: 26px;
+}
+
+button.menu_btn.btn.btn-danger.sliderbtn:hover{
+    border: 0px;
+}
+
+h5.headingslider {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.carousel-caption {
+    
+    top: 154px;
+}
+
+p {
+    
+    font-family: 'Playfair Display';
+    font-size: 17px;
+}

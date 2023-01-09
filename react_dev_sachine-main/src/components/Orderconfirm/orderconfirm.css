@@ -1,0 +1,98 @@
+/*-----------------------------
+# IMPORTS
+- COLORS: https://codepen.io/luckyluu/pen/bGbLzXe
+- BREAKPOINTS: https://codepen.io/luckyluu/pen/ZEzxLxR
+- TYPO: https://codepen.io/luckyluu/pen/eYOMgXQ
+- MIXIN: https://codepen.io/luckyluu/pen/jOOVgbE
+- WOO: default components https://codepen.io/luckyluu/pen/GMpPgN
+----------------------------- */
+
+.woocommerce-notice--success {
+    background: #f8f9fa;
+    margin-top: 10px;
+    padding: 15px;
+    color: #B67429;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgb(255 255 255 / 70%);
+}
+
+h2.woocommerce-order-details__title {
+    font-size: 32px;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.shop_table {
+    width: 100% !important;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 25px 30px;
+}
+
+.shop_table.woocommerce-table--order-details thead {
+    background: #000;
+    color: #fff;
+}
+
+
+address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit;
+    width: 100%;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 25px 30px;
+}
+
+.shop_table.woocommerce-table--order-details thead th.product-name {
+    text-align: left;
+    padding-left: 36px;
+    width: 880px;
+}
+
+.shop_table.woocommerce-table--order-details thead th {
+    border-bottom: none;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.woocommerce-order-overview {
+    background: #f8f8f8;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 14px 0px;
+}
+
+.woocommerce-order-overview li {
+    padding: 1em 1.618em;
+    font-size: 0.8em;
+    width: 25%;
+    text-transform: uppercase;
+    border-right: 1px dotted #e3e3e3;
+    text-align: center;
+}
+
+
+.shop_table tfoot {
+    border-top: 1px solid #f0f2f7;
+    background: #fafafa;
+}
+
+.shop_table tfoot th {
+    padding: 0.7rem;
+    text-align: right;
+}

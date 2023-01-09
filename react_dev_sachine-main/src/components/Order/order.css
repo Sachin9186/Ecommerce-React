@@ -1,0 +1,225 @@
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side1 {
+    width: 20%;
+    Overflow-y: scroll;
+    height: 700px;
+    position: sticky;
+    top: 0px;
+  }
+
+  h4.menu:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2e7";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+h4.menu {
+    background: #42413F;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10px;
+}
+
+.column.side2 {
+  width: 30%;
+  padding: 0px 25px;
+  position: sticky;
+  top: 0px;
+  height: 700px;
+}
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  ul.category_list li {
+    cursor: pointer;
+    background: #ffffff;
+    margin-top: 14px;
+    padding: 8px 10px;
+    text-align: center;
+    width: 185px;
+    border-radius: 5px;
+    color: #B67429;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+ul.category_list li:hover{
+    background: #B67429;
+    color: white;
+}
+
+  ul.category_list {
+    margin-left: 24px;
+}
+
+.cartsection {
+  background: #fff;
+  box-shadow: -1px 6px 20px 2px #cfd5df;
+  padding: 30px 30px;
+}
+
+h3.urorder {
+  text-align: center;
+  color: black;
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+h4.pname, .productprice {
+  font-size: 17px;
+  color: black;
+  font-family: "Raleway";
+}
+
+.productone {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+
+}
+
+h2.subname {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  color: black;
+}
+
+h3.total {
+  font-family: "Raleway";
+  font-size: 20px;
+  color: black;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.menu_btn.btn.btn-danger.checkoutbutton {
+  width: 100%;
+  margin-top: 21px;
+}
+
+.productfirst {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4.producttitle, .productpricee {
+  font-family: "Raleway";
+  font-size: 14px;
+  color: black;
+}
+
+p.productdiscrip {
+  font-family: "Raleway";
+  font-size: 12px;
+  padding-left: 0px;
+}
+
+.productdetails {
+  background: #fff;
+  box-shadow: -2px 4px 8px 2px #cfd5df;
+  padding: 10px 10px;
+  width: 304px;
+  cursor: pointer;
+}
+
+.sectionfirst {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.productallinfodiv.col-lg-6 {
+  margin-top: 18px;
+}
+
+ul.category_list li a {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+}
+
+.productinfimg img {
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+}
+
+h2.categorytitle {
+  margin-bottom: 8px;
+  color: #B67429;
+}
+
+button.add {
+  background-color: #40c0f0;
+  width: 1.5rem;
+}
+
+button.remove {
+  background-color: #f04040;
+  width: 1.5rem;
+}
+
+.cartsection .row {
+  width: 628px;
+}
+
+a.menu_btn.btn.btn-danger.checkoutbutton {
+  width: 100%;
+  margin-top: 18px;
+}
+
+button.atcbtn {
+  font-size: 12px;
+  font-family: 'Playfair Display', serif;
+  background: #b67429;
+  color: white;
+  padding: 6px 9px;
+  border-radius: 4px;
+}
+
+
+.first {
+  /* padding-top: 12px; */
+  padding-bottom: 25px;
+}
+
+.row.orderonline {
+  padding-top: 30px;
+}
+
+ul.category_list li {
+  margin-top: 21px;
+}
+
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+}
